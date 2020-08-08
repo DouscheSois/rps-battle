@@ -1,103 +1,145 @@
 body {
-    background-color: black;
-    text-align: center;
+  background-color: black;
+  text-align: center;
 }
 
 .game {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 
 /* Player CSS */
 
 .background-player {
-    background-color: #d4f3ef;
-    border: 1px solid black;
-    width: 43rem;
-    height: 54rem;
-    opacity: 0.6;
-    justify-content: center;
+  background-color: #d4f3ef;
+  border: 1px solid black;
+  width: 43rem;
+  height: 54rem;
+  justify-content: center;
+}
+
+.background-desc {
+  margin-top: 2rem;
+  background-color: #383e56;
+  color: white;
+  padding: 1rem;
+}
+
+.background-desc small {
+  font-size: 1.3rem;
 }
 
 .choices {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .rock,
 .paper,
 .scissor {
-    margin-bottom: 3rem;
+  margin: 1rem;
+  background-color: white;
+  border-radius: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.rock:hover {
+  background-color: #1b6ca8;
+  cursor: pointer;
+}
+.paper:hover {
+  background-color: #1b6ca8;
+  cursor: pointer;
+}
+.scissor:hover {
+  background-color: #1b6ca8;
+  cursor: pointer;
 }
 
 .rock img {
-    width: 10rem;
-    height: 10rem;
+  width: 8rem;
+  height: 8rem;
 }
 
 .paper img {
-    width: 10rem;
-    height: 10rem;
+  width: 8rem;
+  height: 8rem;
 }
 
 .scissor img {
-    width: 13rem;
-    height: 13rem;
+  width: 8rem;
+  height: 8rem;
 }
 
-.rock img,
-.paper img,
-.scissor img:hover {
-    cursor: pointer;
-}
-
-
+/* AI CSS */
 
 .background-ai {
-    background-color: bisque;
-    border: 1px solid black;
-    width: 43rem;
-    height: 54rem;
+  background-color: bisque;
+  border: 1px solid black;
+  width: 43rem;
+  height: 54rem;
 }
 
 .background-ai img {
-    width: 13rem;
-    height: 13rem;
+  width: 13rem;
+  height: 13rem;
+}
+
+.ai-choice {
+  margin-top: 3rem;
+}
+
+.ai-announcement {
+  visibility: hidden;
+}
+
+.background-ai .ai-rock img {
+  width: 7rem;
+  height: 7rem;
+}
+.background-ai .ai-paper img {
+  width: 7rem;
+  height: 7rem;
+}
+.background-ai .ai-scissor img {
+  width: 7rem;
+  height: 7rem;
 }
 
 .start-game {
-    background-color: white;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    padding: 1rem;
+  background-color: white;
+  margin-top: 25%;
+  margin-bottom: 25%;
+  padding: 0.5rem;
+  font-size: 1.5rem;
 }
 
-.start-game input {
-    padding: 3rem;
+.match-timer {
+  margin-top: 1rem;
 }
 
 @media (max-width: 700px) {
-    .rock img {
-        width: 8rem;
-        height: 8rem;
-    }
+  .rock img {
+    width: 8rem;
+    height: 8rem;
+  }
 
-    .paper img {
-        width: 8rem;
-        height: 8rem;
-    }
+  .paper img {
+    width: 8rem;
+    height: 8rem;
+  }
 
-    .scissor img {
-        width: 11rem;
-        height: 11rem;
-    }
+  .scissor img {
+    width: 11rem;
+    height: 11rem;
+  }
 
-    .background-ai img {
-        width: 11rem;
-        height: 11rem;
-    }
+  .background-ai img {
+    width: 11rem;
+    height: 11rem;
+  }
 }

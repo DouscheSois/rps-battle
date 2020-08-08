@@ -1,39 +1,52 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>RPS - Battle</title>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <link rel="stylesheet" href="style.css" />
-  <title>RPS - Battle</title>
-</head>
+  <div class="game">
+    <div class="background-player">
+      <h1>Player (You)</h1>
+      <div class="choices">
+        <div class="rock"><img src="images/rock.png" alt="rock" /></div>
+        <div class="paper"><img src="images/paper.png" alt="paper" /></div>
+        <div class="scissor">
+          <img src="images/scissor.png" alt="scissor" />
+        </div>
+      </div>
+      <div class="background-desc">
+        <small
+          >Begin the game by choosing your weapon and defeat the Evil AI!</small
+        >
+      </div>
+    </div>
 
-<div class="game">
-  <div class="background-player">
-    <h1>Player</h1>
-    <small>Choose your weapon and defeat the Evil AI!</small>
-    <div class="choices">
-      <div class="rock"><img src="images/rock.png" alt="rock"></div>
-      <div class="paper"><img src="images/paper.png" alt="paper"></div>
-      <div class="scissor"><img src="images/scissor.png" alt="scissor"></div>
+    <div class="start-game">
+      <h1>READY</h1>
+      <div class="result">
+        <div class="player-choice"></div>
+        <div class="match-timer"></div>
+        <!-- <div class="match-winner"></div> -->
+      </div>
+    </div>
+
+    <div class="background-ai">
+      <h1>PAI, The Powerful and Evil A.I.</h1>
+      <img src="images/ai.png" alt="AI Selfie" />
+      <div class="ai-choice">
+        <h1 class="ai-announcement">PAI Chooses:</h1>
+        <div class="ai-rock"><img src="images/rock.png" alt="rock" /></div>
+        <div class="ai-paper"><img src="images/paper.png" alt="paper" /></div>
+        <div class="ai-scissor">
+          <img src="images/scissor.png" alt="scissor" />
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="start-game">
-    <div class="result">
-      <h1>Player Wins</h1>
-    </div>
-    <input type="button" value="BATTLE!">
-  </div>
+  <script src="script.js"></script>
 
-  <div class="background-ai">
-    <h1>PAI, The Powerful and Evil A.I. </h1>
-    <img src="images/ai.png" alt="AI Selfie">
-  </div>
-</div>
-
-
-<script src="script.js"></script>
-
-<body></body>
-
+  <body></body>
 </html>
