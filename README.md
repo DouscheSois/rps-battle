@@ -1,14 +1,14 @@
 # RPS Battle Game
 
-RPS is a rock, paper, scissor game where the user (player) plays against a powerful UI! 
+RPS Battle Game is a rock, paper, scissor game where the user (player) plays against a powerful UI! 
 
 Do you have what it takes to win?
 
 Live Link = https://rps-battle-game.netlify.app/
 
-<img src="images/one.png" width="600" height="500" />
+<img src="images/one.png" width="500" height="400" />
 <hr />
-<img src="images/two.png" width="600" height="500" />
+<img src="images/two.png" width="500" height="400" />
 
 <h3>Summary</h3>
   
