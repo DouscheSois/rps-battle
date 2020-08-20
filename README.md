@@ -16,5 +16,5 @@ The game of Rock, Paper, Scissor is one of the earliest games you learn as a chi
 
 <h3>Author</h3>
 
-Roger Alexander - Full Stack Developer 
+Roger Alexander - Full Stack Developer <a href="http://www.douschesois.com">Portfolio Website</a>
 
