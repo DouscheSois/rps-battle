@@ -10,9 +10,13 @@
     <div class="background-player">
       <h1>Player (You)</h1>
       <div class="choices">
-        <div class="rock"><img src="images/rock.png" alt="rock" /></div>
-        <div class="paper"><img src="images/paper.png" alt="paper" /></div>
-        <div class="scissor">
+        <div id="rock" class="rock">
+          <img src="images/rock.png" alt="rock" />
+        </div>
+        <div id="paper" class="paper">
+          <img src="images/paper.png" alt="paper" />
+        </div>
+        <div id="scissor" class="scissor">
           <img src="images/scissor.png" alt="scissor" />
         </div>
       </div>
@@ -27,8 +31,9 @@
       <h1>READY</h1>
       <div class="result">
         <div class="player-choice"></div>
+        <div class="ai-choice"></div>
         <div class="match-timer"></div>
-        <!-- <div class="match-winner"></div> -->
+        <div class="winner"></div>
       </div>
     </div>
 
