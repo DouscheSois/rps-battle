@@ -12,7 +12,7 @@ Live Link = https://rps-battle-game.netlify.app/
 
 <h3>Summary</h3>
   
-The game of Rock, Paper, Scissor is one of the earliest games you learn as a child. Everyone has played it and I am sure the whole world knows how to play. I wanted to created something that spoke to everybody.
+The game of Rock, Paper, Scissor is one of the earliest games you learn as a child. Everyone has played it and I am sure the whole world knows how to play. I wanted to created something that spoke to everybody. Creating this app was good because it solified my javascript skills. I like to use ES6 functions are this was the perfect app to do it on.
 
 <h3>Author</h3>
 
